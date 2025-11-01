@@ -1,16 +1,39 @@
-# praktikum_7_tugas
+# 🧭 Flutter Project - Tujuan Page (Navigation Demo)
 
-A new Flutter project.
+A simple Flutter page demonstrating *navigation between screens* using `Navigator.push()` and `Navigator.pop()`.
+This project helps understand how route stacks work in Flutter when moving between pages.
 
-## Getting Started
+## 🧩 Preview
 
-This project is a starting point for a Flutter application.
+The page shows:
 
-A few resources to get you started if this is your first Flutter project:
+* A *red AppBar* with the title *“Ini Halaman Tujuan”*.
+* Informational text explaining how `Navigator.push()` and `Navigator.pop()` work.
+* An *image* (`island.png`) displayed below the text.
+* A *blue button* labeled *“Kembali ke home”* to return to the previous screen.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 💡 Result
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+When you navigate to this page, the layout will look like this:
+
+```
+-------------------------------------
+|     Ini Halaman Tujuan            |
+|-----------------------------------|
+|  📘 Penjelasan Navigator.push()   |
+|  📗 Penjelasan Navigator.pop()    |
+|                                   |
+|       🏝️ (island image)           |
+|                                   |
+|   [ Kembali ke home ]             |
+-------------------------------------
+```
+
+## 🛠️ Tech Used
+
+* *Flutter SDK*
+* *Dart Language*
+* *Material Design Widgets*
+* *Navigator.push() & Navigator.pop()*
+
+✨ *A clean and educational example of page navigation in Flutter using the Navigator class!*
